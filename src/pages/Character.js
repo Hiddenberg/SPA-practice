@@ -6,7 +6,7 @@ const Character = async () => {
    let character = await getData(characterId)
 
    const view = `
-      <div class="Characters">
+      <div class="Character">
 
             <article class="Characters-card">
                <img src="${character.image}" alt="${character.name}">

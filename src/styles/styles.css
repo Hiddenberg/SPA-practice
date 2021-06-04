@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+   margin: 0;
+}
+* {
+   box-sizing: border-box;
+}
+
+.Header {
+   position: sticky;
+   top: 0;
+}
+
+.Header-main {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 0 2rem;
+
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #37934D;
+}
+
+.Header-main a {
+   text-decoration: none;
+   color: #FDE430;
+}
+
+.Header-nav {
+   font-size: 1.5rem;
+}
+
+
+#content {
+   background-color: #FAFAC6;
+}
+
+.Characters {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 2rem;
+   row-gap: 1rem;
+   max-width: 100%;
+
+   padding: 1.5rem 1.5rem;
+}
+
+.Characters a {
+   text-decoration: none;
+   font-family: 'Creepster', cursive;
+}
+
+.Characters-card h2 {
+   margin-top: 0.5rem;
+   color: #035003;
+   text-align: center;
+}
+
+.Characters-card img {
+   border-radius: 50%;
+}

@@ -4,7 +4,7 @@ const getData = async (id) => {
    const apiUrl = id ? `${API}/${id}` : API;
 
    try {
-      const response = await fetch(apiUrl);
+      const response = await fetch(apiUrl, {mode: "cors"});
 
       const data = await response.json();
       return data;
