@@ -1,4 +1,6 @@
-const Character = () => {
+import getData from '../utils/getData';
+
+const Character = async () => {
    const view = `
       <div class="Characters">
          <article class="Characters-card">
